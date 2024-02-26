@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header{
+    width: 100%;
+    height: auto;
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: 1fr 60px;
+}
+
+.container_photo_name{
+    width: 100%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 100%;
+    padding: 30px 0;
+    background-color: rgb(11, 67, 104);
+}
+
+.container_photo_name_img{
+    display: grid;
+    justify-content: end;
+    align-items: center;
+}
+
+.container_photo_name_img img{
+    width: 120px;
+    height: 120px;
+    box-shadow: -1px 0px 17px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 17px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 17px 4px rgba(0,0,0,0.75);
+}
+
+.container_photo_name_name{
+    display: grid;
+    margin-left: 30px;
+    align-items: center;
+    font-size: 32px;
+    font-family:'Roboto';
+    font-weight: 700;
+    color: #fff;
+}
+
+.navbar_container{
+    width: 100%;
+}
+
+.navbar_container_ul{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 100%;
+    width: 100%;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+}
+
+.navbar_container_ul li{
+    list-style: none;
+    height: 60px;
+    background-color: #000;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar_container_ul li a{
+    color: #fff;
+    text-decoration: none;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    font-size: 19px;
+    font-family: a;
+}
+
+.li_active{
+    background-color: #693604 !important;
+}
+
+main{
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+main h1{
+    display: grid;
+    width: 90%;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    margin: auto;
+    padding-bottom: 5px;
+    border-bottom: 1px solid #000;
+    text-align: start;
+}
+
+.card_sections_container{
+    display: grid;
+    grid-template-columns: 71% 21%;
+    grid-template-rows: auto;
+    width: 90%;
+    margin: auto;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+.card_sections_container .card{
+    height: auto;
+    box-shadow: -1px 0px 17px 4px rgba(0,0,0,0.75);
+    -webkit-box-shadow: -1px 0px 17px 4px rgba(0,0,0,0.75);
+    -moz-box-shadow: -1px 0px 17px 4px rgba(0,0,0,0.75);
+}
+
+.card_sections_container .card h2{
+    width: 100%;
+    text-align: center;
+    font-size: 19px;
+    color: #fff;
+    background-color:rgb(11, 67, 104);
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    padding: 10px 0;
+}
+
+.target_weather{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+}
+
+.ul_card_list_weeks li{
+    list-style: none;
+    height: 33.3333333px;
+    display: grid;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: auto;
+    justify-content: center;
+    align-items: center;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+}
+
+.ul_card_list_weeks{
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    height: 200px;
+}
+
+.ul_card_list_weeks li div{
+    display: grid;
+    justify-content: center;
+}
+
+footer{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 50px;
+    background-color: rgb(11, 67, 104);
+}
+
+.footer_p_uno{
+    display: flex !important;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    align-items: center;
+    padding: 10px 0;
+    color: #fff;
+}
+
+.img_flag{
+    width: 60px;
+    height: 40px;
+    padding: 0 10px 0 6px;
+}
+
+.year_span{
+    padding: 0 10px;
+}
+
+#lastModified{
+    color: #d4cd0a;
+    text-align: center;
+}

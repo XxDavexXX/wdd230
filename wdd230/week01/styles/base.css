@@ -1,0 +1,38 @@
+@media screen and (max-width: 900px){
+    .card_sections_container {
+        grid-template-columns: 61% 31% !important;
+    }
+
+    .ul_card_list_weeks li {
+        grid-template-columns: 35% 65% !important;
+    }
+}
+
+@media screen and (max-width: 600px){
+    .card_sections_container {
+        grid-template-columns: 90% !important;
+        grid-template-rows: auto !important;
+        margin-top: 0 !important;
+    }
+
+    .card{
+        margin-top: 30px !important;
+    }
+
+    .navbar_container_ul {
+        height: auto !important;
+        grid-template-columns: 100% !important;
+        grid-template-rows: auto auto auto auto !important;
+    }
+
+    main {
+        margin-top: 205px !important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .footer_p_uno {
+        padding: 20px 0 !important;
+        flex-direction: column !important;
+    } 
+}
