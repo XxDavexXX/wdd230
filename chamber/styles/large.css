@@ -1,0 +1,576 @@
+/* Navbar del home  */
+
+header{
+    background-color: rgb(99, 198, 198);
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header img{
+    height: 50px;
+}
+
+.titles_nav{
+    display: flex;
+    flex-direction: column;
+    height: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.titles_nav .t1{
+    font-size: 16px;
+    color: #fff;
+}
+
+.titles_nav .t2{
+    color: #fff;
+    font-size: 13px;
+}
+
+.logo_fb{
+    margin-left: 20px;
+    border-radius: 50%;
+    height: 33px;
+}
+
+.logo_ig{
+    margin-left: 10px;
+    border-radius: 50%;
+    height: 35px;
+}
+
+header nav{
+    height: 50px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+header nav ul{
+    list-style: none;
+    list-style-type: none;
+    margin-block: 0;
+    margin-inline: 0;
+    padding-inline: 0;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header nav ul li{
+    padding: 10px 5px;
+    margin: 0 20px;
+}
+
+.first_div{
+    display: flex;
+    height: 50px;
+}
+
+.second_div{
+    display: flex;
+    height: 50px;
+    align-items: center;
+}
+
+header nav ul li a{
+    font-size: 17px;
+    color: #fff;
+    text-decoration:none;
+}
+
+.active_page{
+    padding: 0 3px;
+    border-bottom: 1px solid #fff;
+}
+
+/* Navbar del home  */
+
+/* Main Seccions home  */
+
+main{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero{
+    width: 1224px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.hero img{
+    width: 100%;
+    height: 550px;
+    background-position: center;
+    background-size: cover;
+}
+
+.hero div{
+    position:relative;
+    top: -520px;
+    left: -465px;
+    background-color: #fff;
+    color: rgb(93, 93, 93);
+    padding: 11px 10px;
+    border-radius: 15px;
+    box-shadow: 0px 1px 22px 8px rgba(60, 60, 60, 0.77);
+    font-family: a;
+}
+
+.cta{
+    position: relative;
+    top: -84px;
+}
+
+.cta p{
+    color: #fff;
+}
+
+.cards_container{
+    display: flex;
+    justify-content: space-between;
+    width: 1224px;
+    margin-top: -70px;
+}
+
+.card_one{
+    width: 63%;
+}
+
+.card_seccion_one{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .header_seccion_one {
+    background-color: rgb(99, 198, 198);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .body_card_one {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .card_two{
+    width: 33%;
+}
+
+  .card_seccion_two{
+    width: 100%;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  
+  .header_seccion_two {
+    background-color:rgb(99, 198, 198);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 18px;
+  }
+  
+  .body_card_two {
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+/* Cars Weather  */
+
+  .cardContainer {
+    width: fit-content;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .card_weather_card {
+    position: relative;
+    width: 220px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 10px;
+    margin: 15px 0;
+    border-radius: 10px;
+    backdrop-filter: blur(30px);
+    background-color: rgb(179 228 228);
+    border: 1px solid rgba(255, 255, 255, 0.089);
+    cursor: pointer;
+  }
+  
+  .city {
+    font-weight: 700;
+    font-size: 0.9em;
+    font-size: 17px;
+    letter-spacing: 1.2px;
+    color: white;
+    margin-block: 0;
+    margin-inline: 0;
+}
+  
+    .weather {
+        font-weight: 500;
+        font-size: 0.7em;
+        letter-spacing: 1.2px;
+        color: rgb(255, 255, 255);
+        font-family: a;
+        font-size: 13px;
+        font-weight: 700;
+        margin-block: 0;
+        margin-inline: 0;
+    }
+  
+  .temp {
+    font-size: 1.8em;
+    color: white;
+    margin-block: 0;
+    margin-inline: 0;
+  }
+  
+  .minmaxContainer {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .min,
+  .max {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+    padding: 0px 20px;
+    gap: 4px;
+  }
+  
+  .max {
+    align-items: flex-start;
+    border-left: 2px solid white;
+  }
+  
+  .maxHeading,
+  .minHeading {
+    font-size: 15px;
+    font-weight: 600;
+    color: white;
+    margin-block: 0;
+    margin-inline: 0;
+  }
+  
+  .maxTemp,
+  .minTemp {
+    font-size: 15px;
+    font-weight: 500;
+    color: rgb(255, 255, 255);
+    margin-block: 0;
+    margin-inline: 0;
+  }
+  
+  .cardContainer:hover::before {
+    transform: translate(-50px, 50px);
+  }
+
+  .text_div{
+    color: #fff;
+    font-size: 15px;
+    margin-top: 5px;
+  }
+
+
+
+
+  .card_one_section {
+    width: 80%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(179 228 228);
+    border-radius: 20px;
+    padding: 30px;
+    margin: 15px 0;
+    gap: 10px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+  }
+  
+  .card_one_section:hover {
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .card_one_section > .image {
+    width: 70px;
+    height: 70px;
+    transition: all 0.1s ease-in-out;
+  }
+  
+  .card_one_section > .number-h1 {
+    font-size: 15px;
+    font-weight: bold;
+    padding: 5px 7px;
+    border-radius: 10px;
+    color: white;
+    background-color: #e57e25;
+    margin-block: 0;
+    margin-inline: 0;
+  }
+  
+  .card_one_section > .h1 {
+    font-size: 17px;
+    font-weight: bold;
+    text-align: center;
+    color: #fff;
+    margin-block: 0;
+    margin-inline: 0;
+  }
+  
+  .card_one_section > .p {
+    color: #ffffff;
+    font-size: 14px;
+    text-align: center;
+    margin-block: 0;
+    margin-inline: 0;
+  }
+
+
+  .card_services_contact {
+    position: relative;
+    width: 315px;
+    height: 300px;
+    margin: 30px auto;
+    box-shadow: 0 0 100px rgba(0,0,0, .3);
+    border-radius: 10px;
+  }
+  
+  .card-header_contact {
+    position: relative;
+    height: 220px;
+    background-size: cover;
+    background-position: top;
+  }
+  
+  .card-header_contact:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 200px;
+    background: linear-gradient(to bottom, rgb(115, 199, 199), rgba(181, 181, 181, -0.20));
+    border-radius: 10px;
+}
+  
+    .card-body_contact {
+        text-align: center;
+        padding-left: 10px;
+        position: relative;
+        top: -180px;
+    }
+  
+  .name {
+    font-size: 20px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0 auto;
+    color: #fff;
+  }
+  
+  .job-title {
+    font-size: 14px;
+    font-weight: 300;
+    margin-top: 15px;
+    color: #919191;
+  }
+  
+  .bio {
+    font-size: 14px;
+    color: #7B7B7B;
+    font-weight: 300;
+    margin: 10px auto;
+    line-height: 20px;
+  }
+  
+  .card-footer_contact {
+    position: absolute;
+    left: 0;
+    width: 100%;
+    bottom: 20px;
+  }
+  
+  .stat {
+    box-sizing: border-box;
+    width: calc(100% / 3);
+    float: left;
+    text-align: center;
+  }
+  
+  .stat:nth-child(2),
+  .stat:nth-child(3) {
+    border-left: 1px solid grey;
+  }
+  
+  .stat .label {
+    display: block;
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 11px;
+    letter-spacing: 1px;
+    color: #95989A;
+  }
+  
+  .stat .value {
+    display: block;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #919191;
+  }
+
+  .spotlights{
+    display: flex;
+    width: 1224px;
+    justify-content: space-evenly;
+  }
+
+  /* Footer  */
+
+
+  #daveFooter {
+    background-color: rgb(99, 198, 198);
+    color: #ffffff;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Arial', sans-serif;
+}
+
+#daveFooter img{
+    width: 340px;
+}
+
+.footer-navigation, .footer-contact, .footer-social {
+    margin: 10px;
+}
+
+.footer-navigation h3, .footer-contact h3, .footer-social h3 {
+    color: #f0f0f0;
+    margin-bottom: 15px;
+}
+
+.footer-navigation ul, .footer-social .social-icons {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-navigation ul li, .social-icon {
+    margin-bottom: 10px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.footer-navigation ul li a, .social-icon {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.social-icon {
+    display: inline-block;
+    padding: 8px;
+    background-color: rgb(65, 131, 131);
+    margin-right: 5px;
+}
+
+.social-icon:hover, .footer-navigation ul li a:hover {
+    transform: scale(1.1);
+}
+
+.footer-art canvas {
+    max-width: 100px;
+    height: auto;
+    margin-top: 20px;
+}
+
+
+
+#menu {
+	font-size: 1.8rem;
+	border: 0;
+	background: none;
+	color: #ffffff;
+	position: absolute;
+	right: 1rem;
+}
+
+#menu::before {
+	content: "☰";
+}
+
+#menu.open::before {
+	content: "❎";
+}
+#menu {
+    display: none; /* hide hamburger button */
+}
+  
+.container_nav_responsive{
+    width: 100%;
+    height: auto;
+    background-color: rgb(99, 198, 198);
+    display: none;
+}
+
+.container_nav_responsive ul{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+}
+
+.container_nav_responsive ul li{
+    list-style: none;
+    padding: 13px 10px;
+}
+
+.container_nav_responsive ul li a{
+    text-decoration: none;
+    color: #fff;
+    background-color: rgb(99, 198, 198);
+}
+
+/* Main Seccions home  */
