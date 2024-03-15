@@ -35,7 +35,7 @@
     <header>
         <div class="container_photo_name">
             <div class="container_photo_name_img">
-                <img src="images/foto_personal.jpg" alt="photo_profile">
+                <img src="images/foto_personal.webp" alt="photo_profile">
             </div>
             <div class="container_photo_name_name">
                 Dave S. Munguia
@@ -43,22 +43,37 @@
         </div>
         <nav class="navbar_container">
             <ul class="navbar_container_ul">
-                <li class="li_active"><a href="#">Home</a></li>
-                <li><a href="#">Chamber</a></li>
+                <li class="li_active"><a href="index.html">Home</a></li>
+                <li><a href="chamber/index.html">Chamber</a></li>
                 <li><a href="week01/chamber-site-plan.html">Site Plan</a></li>
                 <li><a href="#">Form</a></li>
             </ul>
         </nav>
     </header>
     <main>
+        <!-- <picture>
+            <source srcset="templo-movil.webp" media="(max-width: 400px)">
+            <source srcset="templo-grande.webp" media="(min-width: 401px) and (max-width: 960px)">
+            <img src="templo-grande.webp" alt="img temple">
+        </picture> -->
+        <div class="hero">
+            <picture>
+                <img src="images/templo.webp" alt="Yigo Guam Temple - 2022">
+                <source srcset="images/templo.webp" media="(max-width: 400px)">
+                <source srcset="images/templo.webp" media="(min-width: 401px) and (max-width: 960px)">
+            </picture>
+            <div class="herolabel">
+                <p>Yido Guam Temple</p>
+            </div>
+        </div>
         <h1>WDD 230: Web Frontend Development</h1>
         <div class="card_sections_container">
             <section class="card">
                 <h2>Learning Activities</h2>
                 <ul class="ul_card_list_weeks">
                     <li><div>Week 01:</div><a href="">Layout | Media Query | JS Pen</a></li>
-                    <li><div>Week 02:</div><a href=""></a></li>
-                    <li><div>Week 03:</div><a href=""></a></li>
+                    <li><div>Week 02:</div><a href="">Desing | Menu | BOM-25</a></li>
+                    <li><div>Week 03:</div><a href="">WebP | Lazy | srcset | localStorage</a></li>
                     <li><div>Week 04:</div><a href=""></a></li>
                     <li><div>Week 05:</div><a href=""></a></li>
                     <li><div>Week 06:</div><a href=""></a></li>
@@ -73,6 +88,9 @@
                 </div>
             </section>
         </div>
+        <center>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d6471.8405224347625!2d-76.79405173708774!3d-11.988605389620567!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9105e9b39d3762e7%3A0x701b920a979a9f6f!2sParque%20de%20la%20capilla!5e0!3m2!1ses!2spe!4v1710474068433!5m2!1ses!2spe" width="90%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </center>
     </main>
     <footer class="footer">
         <p class="footer_p_uno">
