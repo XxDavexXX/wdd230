@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATC - Advanced Technology Chamber of Commerce</title>
+    <meta name="description" content="WDD 230 - Web Frontend Development">
+    <meta name="author" content="Dave Ryan Santivañez Munguia - WDD 230 - Web Frontend Development">
+    <link rel="icon" href="images/favicon.ico">
+    <!-- Facebook -->
+    <meta property="og:description" content="WDD 230: Web Frontend Development">
+    <meta property="og:url" content="https://xxdavexxx.github.io/wdd230/chamber/index.html">
+    <meta property="og:image" content="https://c4.wallpaperflare.com/wallpaper/573/627/808/nature-landscape-mountains-mist-wallpaper-preview.jpg">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Dave Ryan Santivañez Munguia - WDD 230 - Web Frontend Development">
+     <!-- Facebook -->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="stylesheet" href="styles/base.css">
+</head>
+<body>
+    <div id="message" style="display: none; background-color: #f0f0f0; padding: 10px; text-align: center;"></div>
+    <header style="margin-top: 38px;">
+        <div class="first_div">
+            <img src="images/lion_logo.png" alt="logo">
+            <div class="titles_nav">
+                <div class="t1">Advanced Technology Chamber of Commerce</div>
+                <div class="t2">Chamber of Commerce</div>
+            </div>
+        </div>
+
+        <div class="second_div">
+            <img class="logo_fb" src="images/logo_fb.png" alt="logo_fb">
+            <img class="logo_ig" src="images/logo_instagram.png" alt="logo">
+        </div>
+
+        <nav class="navbar_container">
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active_page" href="discover.html">Discover</a></li>
+                <li><a href="#">Directory</a></li>
+                <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+
+        <button id="menu"></button>
+    </header>
+
+    <div class="container_nav_responsive">
+        <h1 class="h1_nav_responsive">Chamber of Commerce</h1>
+        <ul>
+            <li><a class="active_page" href="index.html">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="#">Directory</a></li>
+            <li><a href="#">Join</a></li>
+        </ul>
+    </div>
+
+    <main>
+        <section class="hero">
+            <img src="images/hero_image.jpg" alt="Hero Image">
+            <div class="btn_instead_hero">Join the Chamber of Commerce</div>
+        </section>
+
+        <section class="cta">
+            <p>Be a part of our Advanced Technology community! Join now and unlock exclusive benefits.</p>
+        </section>
+
+        <div class="container_design_lateral">
+            <div class="contenedor_dos_sections_lateral_design">
+                <div class="section_uno_discovery">
+                    <div class="contendedor_images2">
+
+                        <div class="card_section1_grid">
+                            <div class="image_section1_grid"></div>
+                            <div class="content_section1_grid">
+                              <a href="#">
+                                <span class="title_section1_grid">
+                                    Mission and Vision
+                                </span>
+                              </a>
+                          
+                              <p class="desc_section1_grid">
+                                At ATCC, our mission is to promote innovation and technological progress in the business field. We strive to be leaders in promoting technological excellence and sustainable growth of companies in our sector. Our vision is to create a dynamic business environment where technology is a driving force for success and prosperity. </p>
+                          
+                              <a class="action_section1_grid" href="#">
+                                Find out more
+                                <span aria-hidden="true">
+                                  →
+                                </span>
+                              </a>
+                            </div>
+                          </div>
+                          
+
+                        <div class="container_section2">
+                            <div class="skill-box">
+                                <span class="title">HTML</span>
+                    
+                                <div class="skill-bar">
+                                    <span class="skill-per html">
+                                        <span class="tooltip">50%</span>
+                                    </span>
+                                </div>
+                            </div>
+                    
+                            <div class="skill-box">
+                                <span class="title">CSS</span>
+                    
+                                <div class="skill-bar">
+                                    <span class="skill-per css">
+                                        <span class="tooltip">80%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">JavaScript</span>
+                    
+                                <div class="skill-bar">
+                                    <span class="skill-per javascript">
+                                        <span class="tooltip">20%</span>
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="skill-box">
+                                <span class="title">Images</span>
+                    
+                                <div class="skill-bar">
+                                    <span class="skill-per nodejs">
+                                        <span class="tooltip">10%</span>
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                        <div class="calendar">
+                            <div class="calendar__opts">
+                              <select name="calendar__month" id="calendar__month">
+                                <option>Jan</option>
+                                <option>Feb</option>
+                                <option>Mar</option>
+                                <option>Apr</option>
+                                <option selected>May</option>
+                                <option>Jun</option>
+                                <option>Jul</option>
+                                <option>Aug</option>
+                                <option>Sep</option>
+                                <option>Oct</option>
+                                <option>Nov</option>
+                                <option>Dec</option>
+                              </select>
+                          
+                              <select name="calendar__year" id="calendar__year">
+                                <option>2017</option>
+                                <option>2018</option>
+                                <option>2019</option>
+                                <option selected>2020</option>
+                              </select>
+                            </div>
+                          
+                            <div class="calendar__body">
+                              <div class="calendar__days">
+                                <div>M</div>
+                                <div>T</div>
+                                <div>W</div>
+                                <div>T</div>
+                                <div>F</div>
+                                <div>S</div>
+                                <div>S</div>
+                              </div>
+                          
+                              <div class="calendar__dates">
+                                <div class="calendar__date calendar__date--grey"><span>27</span></div>
+                                <div class="calendar__date calendar__date--grey"><span>28</span></div>
+                                <div class="calendar__date calendar__date--grey"><span>29</span></div>
+                                <div class="calendar__date calendar__date--grey"><span>30</span></div>
+                                <div class="calendar__date"><span>1</span></div>
+                                <div class="calendar__date"><span>2</span></div>
+                                <div class="calendar__date"><span>3</span></div>
+                                <div class="calendar__date"><span>4</span></div>
+                                <div class="calendar__date"><span>5</span></div>
+                                <div class="calendar__date"><span>6</span></div>
+                                <div class="calendar__date"><span>7</span></div>
+                                <div class="calendar__date"><span>8</span></div>
+                                <div class="calendar__date"><span>9</span></div>
+                                <div class="calendar__date"><span>10</span></div>
+                                <div class="calendar__date"><span>11</span></div>
+                                <div class="calendar__date"><span>12</span></div>
+                                <div class="calendar__date"><span>13</span></div>
+                                <div class="calendar__date"><span>14</span></div>
+                                <div class="calendar__date"><span>15</span></div>
+                                <div class="calendar__date calendar__date--selected calendar__date--first-date calendar__date--range-start"><span>16</span></div>
+                                <div class="calendar__date calendar__date--selected calendar__date--last-date"><span>17</span></div>
+                                <div class="calendar__date calendar__date--selected calendar__date--first-date"><span>18</span></div>
+                                <div class="calendar__date calendar__date--selected"><span>19</span></div>
+                                <div class="calendar__date calendar__date--selected"><span>20</span></div>
+                                <div class="calendar__date calendar__date--selected calendar__date--last-date calendar__date--range-end"><span>21</span></div>
+                                <div class="calendar__date"><span>22</span></div>
+                                <div class="calendar__date"><span>23</span></div>
+                                <div class="calendar__date"><span>24</span></div>
+                                <div class="calendar__date"><span>25</span></div>
+                                <div class="calendar__date"><span>26</span></div>
+                                <div class="calendar__date"><span>27</span></div>
+                                <div class="calendar__date"><span>28</span></div>
+                                <div class="calendar__date"><span>29</span></div>
+                                <div class="calendar__date"><span>30</span></div>
+                                <div class="calendar__date"><span>31</span></div>
+                              </div>
+                            </div>
+                          
+                            <div class="calendar__buttons">
+                            </div>
+                          </div>
+
+                          <div class="card_section_2_grid_display">
+                            <div class="card-image_section_2_grid_display"></div>
+                            <p class="card-title_section_2_grid_display">Testimonials</p>
+                            <p class="card-body_section_2_grid_display">
+                                Find out what our members say about the experience of being part of the ATCC. From small businesses to multinational corporations, our members share their testimonies about how ATCC has contributed to their business success and helped them achieve their goals.
+                            <p class="footer_section_2_grid_display">Written by <span class="by-name_section_2_grid_display">Dave Ryan</span> on <span class="date_section_2_grid_display">16/03/24</span></p>
+                          </div>
+                          
+                          
+
+                    </div>
+                </div>
+                <div class="section_dos_discovery">
+                    <div class="contendedor_images">
+                        <img src="images/graph.jpg" loading="lazy" alt="graph">
+                        <img src="images/data_optimized.jpg" loading="lazy" alt="graph">
+                        <img src="images/grama.jpg" loading="lazy" alt="graph">
+                        <img src="images/optimized_cache.png" loading="lazy" alt="graph">
+                        <img src="images/proccess.jpg" loading="lazy" alt="graph">
+                        <img src="images/concepto_estadistica.jpg" loading="lazy" alt="graph">
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+
+    </main>
+
+    <footer id="daveFooter">
+        <div class="footer-navigation">
+            <h3>Quick Links</h3>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="#about">Discover</a></li>
+                <li><a href="#services">Directory</a></li>
+                <li><a href="#contact">Join</a></li>
+            </ul>
+        </div>
+        <div class="footer-contact">
+            <h3>Contact Us</h3>
+            <p>Email: dave.santivanez@gmail.com</p>
+            <p>Phone: +51 903 - 010 - 882</p>
+        </div>
+        <div class="footer-social">
+            <h3>Follow Us</h3>
+            <div class="social-icons">
+                <a href="https://facebook.com" target="_blank" class="social-icon">FB</a>
+                <a href="https://twitter.com" target="_blank" class="social-icon">TW</a>
+                <a href="https://instagram.com" target="_blank" class="social-icon">IG</a>
+            </div>
+        </div>
+        <div class="footer-art">
+            <img src="images/lion_logo.png" alt="logo_chamber_plan"></img>
+        </div>
+    </footer>
+    <script src="scripts/index.js"></script>
+</body>
+</html>
