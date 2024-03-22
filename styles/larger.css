@@ -351,5 +351,26 @@ iframe{
     margin-top: 50px;
 }
 
+form div{
+    margin: 20px;
+    color: #fff;
+}
+
+.contenedor_form h2{
+    color: #fff;
+}
+
+.contenedor_form{
+    padding: 20px 0 20px 0;
+    background-color: #134873f4;
+}
+
+.btn_form_join{
+    padding:10px 20px;
+    background-color: #000000;
+    color: #fff;
+    border: none;
+    box-shadow: inset;
+}
 
 
