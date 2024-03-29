@@ -84,6 +84,28 @@
             "title":"Json Data"
           }
         ]
+      },
+      {
+        "week": "Week 06",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"Home Page Enhancements"
+          }
+        ]
+      },
+      {
+        "week": "Week 07",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"Development Standards"
+          },
+          {
+            "url":"media-query.html",
+            "title":"Functional Specifications"
+          }
+        ]
       }
     ]
 }

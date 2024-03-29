@@ -129,6 +129,14 @@ main h1{
     padding: 10px 0;
 }
 
+#weekList li{
+    display: flex;
+}
+
+#weekList li div, #weekList li a{
+    margin: 0 5px;
+}
+
 .target_weather{
     display: grid;
     justify-content: center;
