@@ -1,0 +1,89 @@
+{
+    "weeks": [
+      {
+        "week": "Week 01",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"HG Layout"
+          },
+          {
+            "url":"media-query.html",
+            "title":"mQueries"
+          }
+        ]
+      },
+      {
+        "week": "Week 02",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"Design"
+          },
+          {
+            "url":"media-query.html",
+            "title":"Menu"
+          },
+          {
+            "url":"media-query.html",
+            "title":"BOM-25"
+          }
+        ]
+      },
+      {
+        "week": "Week 03",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"WebP"
+          },
+          {
+            "url":"media-query.html",
+            "title":"Lazy"
+          },
+          {
+            "url":"media-query.html",
+            "title":"srcset"
+          },
+          {
+            "url":"media-query.html",
+            "title":"localStorage"
+          }
+        ]
+      },
+      {
+        "week": "Week 04",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"CSS Pseudo-elements"
+          },
+          {
+            "url":"media-query.html",
+            "title":"Combinators"
+          },
+          {
+            "url":"media-query.html",
+            "title":"HTML Data"
+          }
+        ]
+      },
+      {
+        "week": "Week 05",
+        "links": [
+          {
+            "url":"holygrail.html",
+            "title":"Pseudo-elements"
+          },
+          {
+            "url":"media-query.html",
+            "title":"Fecth"
+          },
+          {
+            "url":"media-query.html",
+            "title":"Json Data"
+          }
+        ]
+      }
+    ]
+}

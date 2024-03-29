@@ -82,9 +82,15 @@
             <section class="card">
                 <h2 class="information">Information</h2>
                 <div class="target_weather">
-                    <div>Lima, Perú</div>
-                    <div>🌞 35°C - Sunshine</div>
-                    <div>Page Visits : 15</div>
+                    <div style="display: flex;justify-content: center;"><p id="town"></p><p>, Perú</p> </div>
+                    <center><img id="graphic" src="" alt=""></center>
+                    <center>
+                        <p id="temperature"></p>
+                    </center>
+                    <center>
+                        <p id="description"></p>
+                    </center>
+                    <p>Visit Count: 15</p>
                 </div>
             </section>
         </div>
@@ -101,6 +107,11 @@
         </p>
         <p id="lastModified"></p>
     </footer>
+    
+    
+    
+
     <script src="scripts/index.js"></script>
+    <script src="scripts/weather.js"></script>
 </body>
 </html>
