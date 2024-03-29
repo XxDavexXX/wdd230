@@ -1,0 +1,67 @@
+{
+    "companies": [
+        {
+            "name": "Tech Innovations Inc.",
+            "address": "123 Main Street, Suite 101",
+            "phone": "+1 (555) 123-4567",
+            "website": "https://techinnovations.com",
+            "image": "tech_innovations.png",
+            "membership_level": "Gold",
+            "other_information": "Leading provider of cutting-edge technology solutions."
+        },
+        {
+            "name": "Global Solutions Co.",
+            "address": "456 Elm Avenue",
+            "phone": "+1 (555) 987-6543",
+            "website": "https://globalsolutionsco.com",
+            "image": "global_solutions.png",
+            "membership_level": "Silver",
+            "other_information": "Offering comprehensive business consulting services worldwide."
+        },
+        {
+            "name": "Creative Designs Ltd.",
+            "address": "789 Oak Street, 3rd Floor",
+            "phone": "+1 (555) 456-7890",
+            "website": "https://creativedesignsltd.com",
+            "image": "creative_designs.png",
+            "membership_level": "Bronze",
+            "other_information": "Specializing in innovative graphic and web design solutions."
+        },
+        {
+            "name": "Elite Enterprises LLC",
+            "address": "101 Pine Avenue",
+            "phone": "+1 (555) 789-0123",
+            "website": "https://eliteenterprises.com",
+            "image": "elite_enterprises.png",
+            "membership_level": "Platinum",
+            "other_information": "A top-tier provider of premium business services and products."
+        },
+        {
+            "name": "FutureTech Innovations",
+            "address": "321 Cedar Street, Suite 201",
+            "phone": "+1 (555) 234-5678",
+            "website": "https://futuretechinnovations.com",
+            "image": "futuretech_innovations.png",
+            "membership_level": "Gold",
+            "other_information": "Pioneering the future with groundbreaking technological advancements."
+        },
+        {
+            "name": "Infinite Solutions Group",
+            "address": "654 Maple Road",
+            "phone": "+1 (555) 876-5432",
+            "website": "https://infinitesolutionsgroup.com",
+            "image": "infinite_solutions.png",
+            "membership_level": "Silver",
+            "other_information": "Delivering infinite possibilities through strategic business solutions."
+        },
+        {
+            "name": "SmartTech Solutions",
+            "address": "987 Birch Lane, Suite 301",
+            "phone": "+1 (555) 345-6789",
+            "website": "https://smarttechsolutions.com",
+            "image": "smarttech_solutions.png",
+            "membership_level": "Bronze",
+            "other_information": "Empowering businesses with intelligent technology solutions."
+        }
+    ]
+}
